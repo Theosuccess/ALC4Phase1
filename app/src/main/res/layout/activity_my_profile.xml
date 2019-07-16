@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".MyProfile">
+
+
+    <ImageView
+        android:layout_width="260dp"
+        android:layout_height="260dp"
+        android:layout_gravity="center"
+        android:src="@drawable/mypicture"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="6dp"
+        android:layout_gravity="center"
+        android:textSize="30sp"
+        android:text="Omijie Theophilus"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-medium"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginBottom="16dp"
+            android:background="@android:color/black" />
+
+
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:text="Track:    Android"
+        android:textSize="20sp"
+        android:fontFamily="sans-serif-medium"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:text="Country:    Nigeria"
+        android:textSize="20sp"
+        android:fontFamily="sans-serif-medium"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:text="Email:  omijietheophilus@gmail.com"
+        android:textSize="20sp"
+        android:textStyle="italic"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:text="Phone Number:  +2348185011522"
+        android:textSize="20sp"
+        android:fontFamily="sans-serif-medium"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:text="Slack Username:    @Ehiz"
+        android:textSize="20sp"
+        android:fontFamily="sans-serif-medium"/>
+
+ </LinearLayout>
+</ScrollView>
+
+
